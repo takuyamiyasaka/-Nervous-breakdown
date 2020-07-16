@@ -1,0 +1,47 @@
+
+#panel{
+    width: 500px;
+}
+.card{
+    width: 60px;
+    height: 80px;   
+    line-height: 80px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: gray 2px 2px;
+    background: white;
+    float: left;
+    cursor: pointer;
+    margin: 2px;
+}
+.back{
+    background-color: white;
+    background-image: url("./img/box2.jpg");
+    background-size: cover;
+}
+.finish{
+    opacity:0;
+    cursor: default;
+}
+#result{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.turnCard{
+    animation: r7 0.1s linear;
+}
+.turnCard2{
+    animation: r6 0.1s linear;
+}
+   
+  @keyframes r7 {
+    0%   { transform: rotateY(0deg); }
+    100% { transform: rotateY(90deg); }
+  }
+  @keyframes r6{
+    0%   { transform: rotateY(0deg); }
+    100% { transform: rotateY(90deg); }
+  }
